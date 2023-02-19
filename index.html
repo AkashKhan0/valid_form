@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript form validation</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+            <h1>Create a valid form</h1>
+
+        <form id="form" class="form">
+            <div class="form-body">
+                <label for="username">Username</label>
+                <input type="text" placeholder="Enter your name" id="username" />
+                <small>Error message</small>
+            </div>
+            <div class="form-body">
+                <label for="username">Email</label>
+                <input type="email" placeholder="Enter your mail" id="email" />
+                <small>Error message</small>
+            </div>
+            <div class="form-body">
+                <label for="username">Password</label>
+                <input type="password" placeholder="Enter a password" id="password"/>
+                <small>Error message</small>
+            </div>
+            <button>Submit</button>
+        </form>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+</html>
